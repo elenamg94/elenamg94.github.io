@@ -1,0 +1,10 @@
+#A{background-color:peachpuff}
+#B{background-color: lavenderblush}
+#C{background-color: oldlace}
+#A p{font-family: sans-serif}
+#A ul{font-family: monospace}
+#B ol{font-family: 'Courier New', Courier, monospace}
+#B ul{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+#C ol{font-family: Verdana, Geneva, Tahoma, sans-serif}
+#C ul{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+.centrado{display: block; margin: auto}

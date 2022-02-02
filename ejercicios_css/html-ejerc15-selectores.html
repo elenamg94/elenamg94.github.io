@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Tipos de selectores que entran en examen</title>
+	<link href=" html-ejerc15-selectores.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<ol>
+		<h2>
+			<li>Class (class="")</li>
+		</h2>
+		<p>Selector con el cual podemos hacer que varios elementos contengan el mismo estilo.</p>
+		<p> Ejemplo: Añadiendo un selector class, puedo hacer que:
+			<p class="ejemplo-class">Este párrafo</p>
+			<p class="ejemplo-class">Y este parrafo</p>
+			contengan el mismo estilo.
+		</p>
+
+		<h2>
+			<li>Identificador (id="")</li>
+		</h2>
+		<p>Selector que solo podemos asignar a un elemento del documento para cambiar su estilo.</p>
+		<p>Ejemplo: Utlizimos un selector id para el siguiente párrafo:</p>
+		<p id="ejemplo-id">Añadido dicho "id" aqui, no puede ser utilizado en otra parte.</p>
+		<p>Si quisieramos en otro lugar usar un id, deberíamos crear otro, ya que el usado en el párrafo anterior no nos valdría.
+			</p>
+		<h2>
+			<li>Todos los elementos (*)</li>
+		</h2>
+		<p> Selector que selecciona a todos los elementos del documento para ponerles el mismo estilo.</p>
+		<p>Ejemplo: En este documento podríamos haber añadido un selector * para que todo el documento tenga un mismo estilo;
+			por ejemplo, un tipo de letra determinada. </p>
+
+		<h2>
+			<li>Varios elementos (p, em, h1, h2)</li>
+		</h2>
+		<p>El selector "p" sirve para organizar el documento en párrafos.</p>
+		<p>Ejemplo: cada párrafo escrito en este documento esta dentro de un selector "p" (uno para abrir y otro para cerrar).</p>
+		<p>El selector "em" es utilizado para escribir en cursiva.</p>
+		<p>Ejemplo:Añadimos una etiqueta "em" <em>y así esto, está escrito en letra cursiva.</em></p>
+    <p>Los selectores "h1" y "h2" sirven para establecer los títulos.</p>
+    <p>Ejemplo: Vamos a añadir dichas etiquetas: 
+      <h1>Este primero es marcado por un h1 </h1>(por lo que es más grande, ya que se utilizaría como para el título principal)
+      <h2>Y este segundo, por un h2</h2> (este algo más pequeño porque es más utilizado en subtítulos)
+    </p>
+
+    <h2><li>Elementos contenidos en otros elementos (ol li)</li></h2>
+    <p>La etiqueta "ol" es utilizada para establecer un lista ordenada de distintos elementos. Dichos elementos deben encontrarse entre un selector "li" para que el sistema se de cuenta de que dichos elementos forman parte de la lista. Además, estos elementos "li" pueden tener su propio estilo. </p>
+    <p>Ejemplo:</p>
+    <ol><li>Debemos poner la etiqueta "ol".</li>
+    <li><p>Debemos añadir la etiqueta "li", tanto para introducir como para cerrar, cada elemento que queramos añadir a la lista. Este además tiene su propio estilo.</p></li>
+    <li>Cerramos la etiqueta "ol" una vez terminada la lista</li></ol>
+    <h2><li>Sobrevuelo (p:hover) </li></h2></ol>
+    <p>Con este selctor podemos dar un estilo concreto a una parte del documento pero, dicho estilo, solo se aprecia cuando se pasa el ratón por encima.</p>
+    <p id="C">Ejemplo:Si se pasa el ratón por encima de este párrafo, será violeta.</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

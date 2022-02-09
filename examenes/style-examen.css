@@ -1,0 +1,8 @@
+body {font-family: monospace}
+#encabezado {text-align: center; margin: auto; background-color: lightblue; color: darkblue}
+#intro {color: indianred; background-color: lavender}
+#test{font-family: 'Courier New', Courier, monospace; background-color: lightblue}
+#test p{color: green}
+.impar{background-color: lightgray}
+.par{background-color: darkgray}
+.correcta{background-color: yellow;color: red}

@@ -1,0 +1,12 @@
+*{margin: 5px; padding: 5px}
+
+body{background-color: black; color: white; font-family: monospace}
+
+.img-centrada{
+display:block; 
+margin:auto;  
+display: table-cell;
+vertical-align: middle;} 
+
+h1{font-weight: bold}
+h1:hover{background-color: orange; color: black}

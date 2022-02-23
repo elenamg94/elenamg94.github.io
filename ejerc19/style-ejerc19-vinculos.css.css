@@ -1,0 +1,24 @@
+*{margin: 5px; padding: 5px}
+
+body{background-color: black; color: white; font-family: monospace}
+
+.img-centrada{
+display:block; 
+margin:auto;  
+display: table-cell;
+vertical-align: middle;} 
+
+h1{font-weight: bold}
+h1:hover{background-color: orange; color: black}
+
+#listas {border-style:  dashed;
+
+border-width:  5px;
+
+border-color: rgba(150, 60, 150, 100); 
+
+border-radius: 20px}
+
+.boton:hover, boton:active{
+  background-color: green;
+  color: white;}

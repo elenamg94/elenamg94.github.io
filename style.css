@@ -3,3 +3,9 @@
 #B p{text-align: center}
 #C h2{background-color: rgb(15, 175, 255);font-family: 'Courier New', Courier, monospace}
 #C p{text-align: center}
+#D h2{background-color: lightgoldenrodyellow}
+#D p{text-align: center}
+#E h2{background-color:lightpink}
+#E p{text-align: center}
+.boton:hover, boton:active {background-color: lightblue; color: darkviolet}
+#web{background-color: lightcoral}

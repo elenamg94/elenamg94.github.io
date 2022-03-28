@@ -9,3 +9,6 @@
 #E p{text-align: center}
 .boton:hover, boton:active {background-color: lightblue; color: darkviolet}
 #web{background-color: lightcoral}
+#F h2{background-color: mediumpurple}
+#F p{text-align: center; font-family: monospace}
+#G h2{background-color: salmon}

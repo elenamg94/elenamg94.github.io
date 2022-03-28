@@ -1,0 +1,14 @@
+.wow {
+  width: 100px;
+}
+section img{
+display:block; 
+margin:auto;  
+display: table-cell;
+vertical-align: middle;}
+
+header {background-color: seagreen; color: white; font-family: monospace}
+
+main { background-color: lightgreen}
+
+footer {color: orange}
